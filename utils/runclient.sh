@@ -17,6 +17,9 @@ do
    echo "TileMill is not available at ${host}:${port}";exit 1;
  fi
 done
+echo "------------------------------------------------------------------------------"
 echo "Opening TileMill session in browser..."
+echo "If this does not work, then open it youself in \"http://${host}:${port}\""
+echo "------------------------------------------------------------------------------"
 open "http://${host}:${port}"
 exit 0
